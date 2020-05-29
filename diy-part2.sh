@@ -28,4 +28,4 @@ echo 'CONFIG_PACKAGE_luci-i18n-passwall-zh-cn=y'  >> .config
 echo 'luci-app-vssr'
 git clone https://github.com/jerrykuku/luci-app-vssr package/lean/luci-app-vssr
 echo 'CONFIG_PACKAGE_luci-app-vssr=y' >> .config
-
+echo 'CONFIG_PACKAGE_luci-i18n-vssr-zh-cn=y'  >> .config

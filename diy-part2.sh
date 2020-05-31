@@ -25,7 +25,7 @@ echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Brook=y' >> .config
 echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_kcptun=y' >> .config
 echo 'CONFIG_PACKAGE_luci-i18n-passwall-zh-cn=y'  >> .config
 
-echo 'luci-app-vssr'
+echo '添加luci-app-vssr'
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
 echo 'CONFIG_PACKAGE_luci-app-vssr=y' >> .config

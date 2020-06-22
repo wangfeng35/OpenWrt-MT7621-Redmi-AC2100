@@ -58,7 +58,7 @@ Add some meta info of your built firmware (such as firmware architecture and ins
 | CONFIG_PACKAGE_luci-theme-netgear   | netgear   |
 | CONFIG_PACKAGE_luci-theme-argon     | argon     |
 
-## 插件说明 CONFIG*PACKAGE*
+## 插件说明 *PACKAGE*
 
 | 变量                               | 名字                                             |
 | --------------------------------- | -------------------------------------------------|

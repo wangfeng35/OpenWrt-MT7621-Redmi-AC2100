@@ -19,10 +19,10 @@ echo '添加Passwall'
 echo 'CONFIG_PACKAGE_luci-app-passwall=y' >> .config
 echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks=y' >> .config
 echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Trojan=y' >> .config
-echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_simple-obfs=y' >> .config
-echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_v2ray-plugin=y' >> .config
-echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Brook=y' >> .config
-echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_kcptun=y' >> .config
+echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_simple-obfs=n' >> .config
+echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_v2ray-plugin=n' >> .config
+echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Brook=n' >> .config
+echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_kcptun=n' >> .config
 echo 'CONFIG_PACKAGE_luci-i18n-passwall-zh-cn=y'  >> .config
 
 echo '添加luci-app-vssr'
